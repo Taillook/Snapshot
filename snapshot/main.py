@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-#!/usr/local/bin/python
+
 
 import cv2
 import time
 import subprocess as sp
+import sys
 
 def main(args=sys.argv[1:]):
     delay_time = 1
