@@ -29,6 +29,7 @@ def take():
     cv2.imwrite(path, frame)
     cap.release()
     cv2.destroyAllWindows()
+    print("took a picture at " + path)
 
 
 def main(args=sys.argv[1:]):
