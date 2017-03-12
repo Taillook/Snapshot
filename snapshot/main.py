@@ -10,6 +10,13 @@ h = False # show_help
 o = False # open_file
 delay_time = 1
 path = "photo.jpg"  # image_path
+help_text = '''
+USAGE: snapshot [options]
+  -h          This help message
+  -o          open image(mac only)
+  -d x        Delay a time
+  -p string   File path
+'''
 
 
 def opt(args):
@@ -36,11 +43,11 @@ def take():
 
 
 def main(args=sys.argv[1:]):
-    global h, o, path
+    global h, o, path, help_text
     opt(args)
 
     if h:
-        print("help")
+        print(help_text)
     else:
         take()
 
