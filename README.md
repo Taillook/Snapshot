@@ -18,3 +18,9 @@ took a picture at 'file_name'
 $ snapshot -p 'file_name(str)'
 took a picture at 'file_name'
 ```
+```
+$ snapshot -o 'file_name(str)'
+took a picture at 'file_name'
+
+and open image(mac only)
+```
