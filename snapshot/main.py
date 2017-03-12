@@ -14,7 +14,7 @@ help_text = '''
 USAGE: snapshot [options]
   -h          This help message
   -o          open image(mac only)
-  -d x        Delay a time
+  -d int      Delay a time
   -p string   File path
 '''
 
