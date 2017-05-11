@@ -13,7 +13,7 @@ setup(
     classifiers=[
           'Environment :: Console',
           'Intended Audience :: Developers',
-          'Operating System :: MacOS :: MacOS X',
+          'Operating System :: MacOS :: MacOS Sierra',
           'Programming Language :: Python',
           'Programming Language :: Python :: 3.6.0',
     ],
