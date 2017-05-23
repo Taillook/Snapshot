@@ -53,7 +53,7 @@ def main(args=sys.argv[1:]):
         take()
 
     if o:
-        sp.call(["open", path])
+        sp.call("open" + " " + path)
 
 
 if __name__ == '__main__':
