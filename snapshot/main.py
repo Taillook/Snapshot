@@ -7,10 +7,11 @@ import subprocess as sp
 import sys
 import argparse
 
+
 h = False # show_help
 o = False # open_file
 delay_time = 1
-path = "photo.jpg"  # image_path
+path = "photo.jpg"
 help_text = '''
 USAGE: snapshot [options]
   -h          This help message
