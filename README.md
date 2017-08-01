@@ -10,14 +10,17 @@ taillook.s@gmail.com
 $ snapshot
 took a picture at 'file_name'
 ```
+
 ```
 $ snapshot -d 'delay_time(int)'
 took a picture at 'file_name'
 ```
+
 ```
 $ snapshot -p 'file_name(str)'
 took a picture at 'file_name'
 ```
+
 ```
 $ snapshot -o 'file_name(str)'
 took a picture at 'file_name'
